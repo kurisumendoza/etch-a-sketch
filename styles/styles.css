@@ -6,7 +6,6 @@
 .content {
   background-color: aliceblue;
   aspect-ratio: 1/1;
-  flex-basis: 6.25%;
   cursor: pointer;
 }
 
