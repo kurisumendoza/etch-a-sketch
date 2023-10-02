@@ -20,9 +20,13 @@ const newSketchpad = document.querySelector('.new-sketchpad');
 newSketchpad.addEventListener('click', () => pixelAmount())
 
 function pixelAmount() {
-  let pixel = prompt('Enter amount of squares per side?', 'Max: 100');
+  let pixel;
+  
+  do {
+    pixel = prompt('Enter amount of squares per side?', 'Min: 10; Max: 100');
+  } while (pixel > 100 || pixel < 10 || pixel === NaN)
 
-  if (pixel <= 100) {
+  if (pixel <= 100 && pixel > 0) {
     while (container.hasChildNodes()) {
       container.removeChild(container.firstChild);
     }
