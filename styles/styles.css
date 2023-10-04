@@ -1,12 +1,18 @@
 .container {
   display: flex;
   flex-wrap: wrap;
+  width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  border-style: solid;
+  border-color: black;
 }
 
 .content {
   background-color: aliceblue;
   aspect-ratio: 1/1;
   cursor: pointer;
+  justify-content: center;
 }
 
 .sketch {
@@ -47,4 +53,32 @@
 
 .sketch-ten {
   background-color: rgba(0, 0, 0, 1.0);
+}
+
+
+.buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: arial;
+  width: 906px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.title {
+  border-style: none;
+  font-weight: bold;
+  color: rgb(9, 0, 71);
+  font-size: 35px;
+}
+
+.new-sketchpad {
+  background-color: rgb(79, 103, 147);
+  border-style: none;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
 }
