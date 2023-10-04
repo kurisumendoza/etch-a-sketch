@@ -10,5 +10,41 @@
 }
 
 .sketch {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.sketch-two {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.sketch-three {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.sketch-four {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.sketch-five {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sketch-six {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.sketch-seven {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sketch-eight {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.sketch-nine {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.sketch-ten {
+  background-color: rgba(0, 0, 0, 1.0);
 }
